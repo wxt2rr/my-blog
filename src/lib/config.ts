@@ -2,7 +2,7 @@ export const config = {
   site: {
     title: "wangxiaotao's blog",
     name: "博客",
-    description: "wangxiaotao's blog",
+    description: "wangxiaotao",
     keywords: ["博客", "AI", "个人博客", "技术博客"],
     url: "https://blog.wangxt.online",
     baseUrl: "https://blog.wangxt.online",
@@ -36,7 +36,7 @@ export const config = {
   author: {
     name: "wangxiaotao",
     email: "wang1471520488@gmail.com",
-    bio: "个人博客",
+    bio: "「心若向阳，何惧风霜；行稳致远，自强不息。」",
   },
   social: {
     github: "https://github.com/wxt2rr",
