@@ -45,7 +45,7 @@ summary: 现在使用hexo作为自己博客的主要部署方式，写博客一�
 
 ```python
 [github]
-token = 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
+token = ghp_xxxxx
 user = wxt2rr
 repo = images
 ```
