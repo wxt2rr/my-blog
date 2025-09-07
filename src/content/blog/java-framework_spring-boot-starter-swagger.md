@@ -28,7 +28,6 @@ public class SpringbootSwaggerSpring4allApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootSwaggerSpring4allApplication.class, args);
 	}
-
 }
 ~~~
 
@@ -181,7 +180,7 @@ public class DemoVo {
 
 #### 启动项目，访问页面
 
-默认页面地址：http://{ip}:{port}/swagger-ui.html
+默认页面地址：<pre> ```http://{ip}:{port}/swagger-ui.html ``` </pre>
 
 [我的示例地址查看](http://gh9d59.natappfree.cc/swagger-ui.html)（地址是内网穿透到我本机的，大概率访问不通（斜眼笑））
 

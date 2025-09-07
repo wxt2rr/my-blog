@@ -12,10 +12,10 @@ summary: 今天有个同事写了一条sql，先不管sql的业务逻辑和可�
             delete from xxxx_table
             where gid = #{item.gId} and pid = #{item.pId}
         </foreach>
-    </delete>
+ </delete>
 ~~~
 
-如上，今天有个同事写了一条sql，先不管sql的业务逻辑和可用性，在本地执行没有问题，部署到QA环境报错，大概意思就是sql在where gid = #{item.gId} 执行语法有问题。
+如上，今天有个同事写了一条sql，先不管sql的业务逻辑和可用性，在本地执行没有问题，部署到QA环境报错，大概意思就是sql在<pre> ```sql where gid = #{item.gId} ``` </pre>执行语法有问题。
 
 ##### 问题原因：
 
