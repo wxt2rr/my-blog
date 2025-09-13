@@ -1,6 +1,3 @@
-Markdown
-
-```
 ---
 title: npx 网络问题排查纪实：从 ENOTFOUND 到 SSL_ERROR_SYSCALL
 date: 2025-09-13 10:38
@@ -8,7 +5,6 @@ keywords: ["ENOTFOUND", "SSL_ERROR_SYSCALL", "npx @tiptap/cli", "getaddrinfo", "
 featured: true
 summary: 近期在项目中集成 `Tiptap` 时，执行官方的脚手架命令遇到了一个持续了较长时间的网络问题。整个排查过程涉及到多个层面，最终定位到了一个由特定工具 Bug 和网络环境共同导致的问题。在此记录完整的思考和解决过程，希望能为遇到类似问题的开发者提供参考。
 ---
-```
 
 ### 一、问题的起点：ENOTFOUND 错误与初步诊断
 

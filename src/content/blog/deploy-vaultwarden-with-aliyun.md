@@ -15,7 +15,7 @@ summary: 在阿里云的服务器到期了，其它的服务基本都是静态�
 1. 登录阿里云容器镜像服务，创建个人版实例https://cr.console.aliyun.com/cn-beijing/instances
 1. 创建完成之后从本地推送Vaultwarden的镜像到阿里云镜像服务（在Pull镜像时最好指定镜像的打包平台，不然可能因为打包的镜像和运行环境不兼容，可能在阿里云函数里跑不起来）
 
-```
+```shell
 docker pull --platform=linux/amd64 vaultwarden/server:latest
 docker login --username= crpi-bufxxxxx01.cn-beijing.personal.cr.aliyuncs.com
 docker tag [ImageId] crpi-bufxxxxx01.cn-beijing.personal.cr.aliyuncs.com/wangxt0223/common:[镜像版本号]
